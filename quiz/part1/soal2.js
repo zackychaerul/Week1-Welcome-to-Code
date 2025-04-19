@@ -15,6 +15,7 @@ let tanggal = 21; // assign nilai variabel tanggal disini! (dengan angka antara 
 let bulan = 1; // assign nilai variabel bulan disini! (dengan angka antara 1 - 12)
 let tahun = 1945; // assign nilai variabel tahun disini! (dengan angka antara 1900 - 2200)
 
+//code switch case kamu disini
 switch (bulan) {
   case 1:
     bulan = "januari";
@@ -49,5 +50,3 @@ switch (bulan) {
 }
 
 console.log(`${tanggal} ${bulan} ${tahun}`);
-
-//code switch case kamu disini
