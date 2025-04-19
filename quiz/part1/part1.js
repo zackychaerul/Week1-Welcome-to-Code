@@ -17,6 +17,20 @@
 
 // algoritma
 //isi algoritma mu disini (AWAS KALO GA DI ISI!!!!)
+/**
+ * Simpan nama pemain dalam variabel nama dengan nilai "zacky".
+Simpan peran pemain dalam variabel peran dengan nilai "penyihir".
+Periksa apakah variabel nama kosong:
+Jika ya, tampilkan pesan "nama wajib disi".
+Periksa apakah variabel peran kosong:
+Jika ya, tampilkan pesan "pilih peranmu untuk memulai game".
+Jika peran adalah "ksatria", maka tampilkan:
+"halo ksatria zacky, kamu dapat menyerang dengan senjatamu!"
+Jika peran adalah "tabib", maka tampilkan:
+"halo Tabib zacky , kamu akan membantu temanmu yang terluka"
+Jika peran adalah "penyihir", maka tampilkan:
+"halo Penyihir zacky , ciptakan keajaiban yang membantu kemenanganmu!"
+ */
 
 let nama = "zacky",
   peran = "penyihir";
