@@ -7,20 +7,14 @@
 // Apabila angka counter adalah angka genap, tuliskan GENAP
 // Apabila angka counter adalah angka ganjil, tuliskan GANJIL
 
-let counter = 1;
-
-while (counter <= 100) {
-  if (counter % 2 == 0) {
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
     console.log(
-      "Apabila angka counter adalah Genap, Tuliskan GENAP - ",
-      counter
+      " Apabila angka counter adalah angka genap, tulikasn GENAP : " + i
+    );
+  } else {
+    console.log(
+      " Apabila angka counter adalah  angka ganjil, tuliskan GANJIL : " + i
     );
   }
-  if (counter % 2 !== 0) {
-    console.log(
-      "Apabila angka counter adalah Ganjil, Tuliskan GANJIL - ",
-      counter
-    );
-  }
-  counter++;
 }
