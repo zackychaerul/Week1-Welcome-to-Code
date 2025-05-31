@@ -3,6 +3,10 @@
 
 //bikin fungsinya disini
 
+function calculateMultiply(a, b) {
+  return a * b;
+}
+
 let num1 = 1;
 let num2 = 2;
 
